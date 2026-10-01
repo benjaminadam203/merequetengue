@@ -1,0 +1,98 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="0.5" stop-color="#111827"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="200" y1="150" x2="950" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="500" y1="200" x2="900" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="50" y1="50" x2="500" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#2563EB"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#020617" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+
+  <g opacity="0.18">
+    <circle cx="180" cy="120" r="160" fill="#22C55E"/>
+    <circle cx="1090" cy="670" r="200" fill="#2563EB"/>
+    <circle cx="980" cy="180" r="120" fill="#34D399"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="170" y="110" width="860" height="580" rx="32" fill="url(#panel)"/>
+  </g>
+
+  <g>
+    <rect x="210" y="150" width="300" height="210" rx="24" fill="#111827" stroke="#334155"/>
+    <rect x="230" y="170" width="260" height="170" rx="18" fill="#0B1220"/>
+
+    <g opacity="0.9">
+      <rect x="262" y="233" width="30" height="30" rx="8" fill="#34D399"/>
+      <rect x="302" y="233" width="30" height="30" rx="8" fill="#60A5FA"/>
+      <rect x="342" y="233" width="30" height="30" rx="8" fill="#FBBF24"/>
+      <rect x="382" y="233" width="30" height="30" rx="8" fill="#F472B6"/>
+      <rect x="422" y="233" width="30" height="30" rx="8" fill="#A78BFA"/>
+    </g>
+
+    <rect x="250" y="290" width="200" height="14" rx="7" fill="#1E293B"/>
+    <rect x="250" y="315" width="170" height="14" rx="7" fill="#1E293B"/>
+  </g>
+
+  <g>
+    <rect x="560" y="150" width="420" height="210" rx="24" fill="#0F172A" stroke="#334155"/>
+    <circle cx="640" cy="255" r="70" fill="url(#accent2)" opacity="0.2"/>
+    <circle cx="640" cy="255" r="52" fill="url(#accent2)"/>
+    <path d="M640 218C649.7 218 657.5 225.8 657.5 235.5V250.5H622.5V235.5C622.5 225.8 630.3 218 640 218ZM613 250.5H667C670.6 250.5 673.5 253.4 673.5 257V278.5C673.5 282.1 670.6 285 667 285H613C609.4 285 606.5 282.1 606.5 278.5V257C606.5 253.4 609.4 250.5 613 250.5Z" fill="#E2E8F0"/>
+    <g>
+      <text x="730" y="235" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Senhas</text>
+      <text x="730" y="270" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="20">seguras</text>
+      <rect x="730" y="292" width="180" height="12" rx="6" fill="#1E293B"/>
+      <rect x="730" y="318" width="145" height="12" rx="6" fill="#1E293B"/>
+      <circle cx="780" cy="255" r="8" fill="#34D399"/>
+      <path d="M775 255L778.5 258.5L785.5 251.5" stroke="#0F172A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="210" y="420" width="770" height="220" rx="26" fill="#0B1220" stroke="#334155"/>
+
+    <g>
+      <rect x="250" y="460" width="210" height="140" rx="20" fill="#0F172A" stroke="#1E293B"/>
+      <circle cx="310" cy="515" r="38" fill="url(#accent)"/>
+      <path d="M298 515L309 526L325 509" stroke="#0F172A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="286" y="570" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Protegidas</text>
+    </g>
+
+    <g>
+      <rect x="495" y="460" width="210" height="140" rx="20" fill="#0F172A" stroke="#1E293B"/>
+      <circle cx="555" cy="515" r="38" fill="#60A5FA" opacity="0.9"/>
+      <path d="M555 489V500M555 541V530M528 515H539M571 515H582" stroke="#0F172A" stroke-width="5" stroke-linecap="round"/>
+      <text x="524" y="570" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Gerenciadas</text>
+    </g>
+
+    <g>
+      <rect x="740" y="460" width="210" height="140" rx="20" fill="#0F172A" stroke="#1E293B"/>
+      <circle cx="800" cy="515" r="38" fill="#FBBF24" opacity="0.9"/>
+      <path d="M789 492H811V509H823V533C823 540.7 816.7 547 809 547H791C783.3 547 777 540.7 777 533V509H789V492Z" fill="#0F172A"/>
+      <text x="774" y="570" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Fáceis</text>
+    </g>
+  </g>
+
+  <g>
+    <path d="M1000 260C1012 242 1036 236 1055 250C1070 262 1081 280 1080 299C1079 321 1066 339 1046 350L1024 365L1008 351C989 340 974 321 973 301C972 286 977 268 990 255L1000 260Z" fill="url(#accent)" opacity="0.9"/>
+    <path d="M1031 273L1048 286L1084 250" stroke="#0F172A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
